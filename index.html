@@ -1,0 +1,171 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+     tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            fontFamily: {
+        'sans': ['Roboto', 'Arial', 'sans-serif'],
+        'custom-font': ['"Poppins"', 'fallback-font'], 
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="bg-gray-300 p-4 flex justify-center space-x-8 font-poppins text-15px font-semibold">
+        <a class="text-black" href="tentang kami">
+         Tentang Kami
+        </a>
+        <a class="text-black" href="beranda">
+         Beranda
+        </a>
+        <a class="text-black" href="contact us">
+         Contact Us
+        </a>
+    </nav>
+    <div class="container mx-auto px-4">
+        <h1 class="text-3xl font-poppins font-bold text-center mb-8">
+         Pilih Kru Anda
+        </h1> 
+    </div>
+
+    <div class="hidden lg:flex lg:items-start lg:justify-center lg:space-x-4 space-y-4 lg:space-y-0">
+      <div class="lg:flex-1 lg:max-w-[600px] lg:space-y-4">
+          <div class="flex bg-[#FFF4DC] p-4 rounded-lg shadow-md items-center">
+              <img src="assets/luffy.png" alt="luffy" class="w-20 h-20 lg:w-24 lg:h-24">
+              <div class="ml-4">
+                <h2 class="text-lg font-bold">Monkey D Luffy</h2>
+                <p>Si Topi Jerami</p>
+                <button class="mt-2 bg-[#E29A00] text-white px-4 py-2 rounded">Pilih Saya</button>
+            </div>
+          </div>
+          <div class="lg:flex lg:space-x-4">
+              <div class="lg:flex-1 flex flex-col space-y-4">
+                  <div class="bg-[#E1FFDC] p-4 rounded-lg shadow-md text-center">
+                      <img src="assets/zoro 1.svg" alt="zoro" class="w-20 h-20 mx-auto">
+                      <h2 class="text-md font-bold">Zoro</h2>
+                      <button class="mt-2 bg-[#7EB782] text-white px-4 py-2 rounded">Pilih Saya</button>
+                  </div>
+                  <div class="bg-[#FFCED7] p-4 rounded-lg shadow-md text-center">
+                      <img src="assets/nami 1.png" alt="nami" class="w-20 h-20 mx-auto">
+                      <h2 class="text-md font-bold">Nami</h2>
+                      <button class="mt-2 bg-[#FF5573] text-white px-4 py-2 rounded">Pilih Saya</button>
+                  </div>
+              </div>
+              <div class="bg-[#E2F2FF] p-4 rounded-lg shadow-md text-center lg:w-48">
+                  <img src="assets/sanji 1.png" alt="sanji" class="w-20 h-20 mx-auto">
+                  <h2 class="text-md font-bold">Sanji</h2>
+                  <p class="text-sm">Sanji adalah kru bajak laut yang bisa memasak.</p>
+                  <button class="mt-2 bg-[#3279AF] text-white px-4 py-2 rounded">Pilih Saya</button>
+              </div>
+          </div>
+      </div>
+      <div class="lg:flex-1 lg:max-w-[300px] space-y-4">
+          <div class="bg-[#D8D6C1] p-4 rounded-lg shadow-md">
+               <div class="space-y-5">
+                  <div class="bg-[#f9f9f7] p-3 rounded-lg shadow-md flex items-center">
+                      <img src="assets/god_usopp 1.png" alt="usopp" class="w-12 h-12">
+                      <div class="ml-4">
+                            <h2 class="text-md font-bold">Usopp</h2>
+                            <button class="mt-2 bg-[#D8D6C1] text-white px-3 py-1 rounded">Pilih Saya</button>
+                      </div>
+                    </div>
+                </div>
+                  <div class="bg-[#fcfcfc] p-4 rounded-lg shadow-md flex items-center">
+                      <img src="assets/chopper 1.png" alt="chopper" class="w-12 h-12">
+                      <div class="ml-4">
+                         <h2 class="text-md font-bold">Chopper</h2>
+                         <button class="mt-2 bg-[#D8D6C1] text-white px-3 py-1 rounded">Pilih Saya</button>
+                      </div>
+                    </div>
+                  
+                  <div class="bg-[#ffffff] p-4 rounded-lg shadow-md flex items-center">
+                      <img src="assets/robin 1.png" alt="robin" class="w-12 h-12">
+                      <div class="ml-4">
+                         <h2 class="text-md font-bold">Robin</h2>
+                         <button class="mt-2 bg-[#D8D6C1] text-white px-3 py-1 rounded">Pilih Saya</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-[#D8D6C1]  flex-col p-3 rounded-lg shadow-md text-center">
+                     <div class="lg:flex  space-x-5">
+                        <div class="flex-1">
+                            <img src="assets/brook 1.png" alt="Brook" class="w-16 h-16 mx-auto">
+                            <h2 class="text-md font-bold">Brook</h2>
+                            <button class="mt-2 bg-[#868257] text-white px-4 py-2 rounded">Pilih Saya</button>
+                        </div>
+                        <div class="flex-1">
+                             <img src="assets/jinbe 1.png" alt="Jinbe" class="w-16 h-16 mx-auto">
+                            <h2 class="text-md font-bold">Jinbe</h2>
+                            <button class="mt-2 bg-[#868257] text-white px-4 py-2 rounded">Pilih Saya</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>
+    <div class="lg:hidden space-y-4">
+        <div class="bg-[#FFF4DC] p-4 rounded-lg shadow-md text-center">
+            <img src="assets/luffy.png" alt="Luffy" class="w-24 h-24 mx-auto">
+            <h2 class="text-lg font-bold mt-2">Monkey D Luffy</h2>
+            <p>Si Topi Jerami</p>
+            <button class="mt-2 bg-[#E29A00] text-white px-6 py-2 rounded">Pilih Saya</button>
+        </div>
+        <div class="bg-[#E1FFDC] p-4 rounded-lg shadow-md text-center">
+            <img src="assets/zoro 1.svg" alt="Zoro" class="w-24 h-24 mx-auto">
+            <h2 class="text-lg font-bold mt-2">Zoro</h2>
+            <button class="mt-2 bg-[#7EB782] text-white px-6 py-2 rounded">Pilih Saya</button>
+        </div>
+        <div class="bg-[#FFCED7] p-4 rounded-lg shadow-md text-center">
+            <img src="assets/nami 1.png" alt="Nami" class="w-24 h-24 mx-auto">
+            <h2 class="text-lg font-bold mt-2">Nami</h2>
+            <button class="mt-2 bg-[#FF5573] text-white px-6 py-2 rounded">Pilih Saya</button>
+        </div>
+        <div class="bg-[#E2F2FF] p-4 rounded-lg shadow-md text-center">
+            <img src="assets/sanji 1.png" alt="Sanji" class="w-24 h-24 mx-auto">
+            <h2 class="text-lg font-bold mt-2">Sanji</h2>
+            <p class="text-sm">Sanji adalah kru bajak laut yang bisa memasak.</p>
+            <button class="mt-2 bg-[#3279AF] text-white px-6 py-2 rounded">Pilih Saya</button>
+        </div>
+        <div class="bg-[#D8D6C1] p-4 rounded-lg shadow-md text-center">
+            <img src="assets/god_usopp 1.png" alt="Usopp" class="w-24 h-24 mx-auto">
+            <h2 class="text-lg font-bold mt-2">Usopp</h2>
+            <button class="mt-2 bg-[#D8D6C1] text-white px-6 py-2 rounded">Pilih Saya</button>
+        </div>
+        <div class="bg-[-[#f9f9f7] p-4 rounded-lg shadow-md text-center">
+            <img src="assets/chopper 1.png" alt="Chopper" class="w-24 h-24 mx-auto">
+            <h2 class="text-lg font-bold mt-2">Chopper</h2>
+            <button class="mt-2 bg-[#D8D6C1] text-white px-6 py-2 rounded">Pilih Saya</button>
+        </div>
+        <div class="bg-[#f9f9f7] p-4 rounded-lg shadow-md text-center">
+            <img src="assets/robin 1.png" alt="Robin" class="w-24 h-24 mx-auto">
+            <h2 class="text-lg font-bold mt-2">Robin</h2>
+            <button class="mt-2 bg-[#D8D6C1] text-white px-6 py-2 rounded">Pilih Saya</button>
+        </div>
+        <div class="bg-[#f9f9f7] p-4 rounded-lg shadow-md text-center">
+            <img src="assets/brook 1.png" alt="Brook" class="w-24 h-24 mx-auto">
+            <h2 class="text-lg font-bold mt-2">Brook</h2>
+            <button class="mt-2 bg-[#D8D6C1] text-white px-6 py-2 rounded">Pilih Saya</button>
+        </div>
+        <div class="bg-[#f9f9f7] p-4 rounded-lg shadow-md text-center">
+            <img src="assets/jinbe 1.png" alt="Jinbe" class="w-24 h-24 mx-auto">
+            <h2 class="text-lg font-bold mt-2">Jinbe</h2>
+            <button class="mt-2 bg-[#D8D6C1] text-white px-6 py-2 rounded">Pilih Saya</button>
+        </div>
+    </div>
+</div>
+</div>
+  </body>
+</html> 
